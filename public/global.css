@@ -1,0 +1,48 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    white-space: normal !important;
+}
+
+.bg-primary {
+    background-color: bisque !important;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Estilos para las celdas de la tabla */
+th,
+td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Estilos para la fila de encabezado */
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Estilos para las filas impares */
+tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+/* Estilos para las filas al pasar el mouse */
+tr:hover {
+    background-color: #eaeaea;
+}
+
+input, select, textarea{
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
